@@ -64,8 +64,21 @@
     }
 
     .caixa-todo .descricao {
-        width: 30em;
+        width: 35em;
         margin: 3em auto;
+    }
+
+    .caixa-todo .descricao .titulo-fino {
+        font-size: 2.3em;
+    }
+
+    .caixa-todo .descricao .titulos {
+        font-size: 2.3em;
+    }
+
+    .caixa-todo .descricao .texto-descricao {
+        width: 32em;
+        margin: 0 auto;
     }
 
     .caixa-todo .caixa-conteudo.supervirsor {
@@ -85,11 +98,11 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
-
 .titulos {
-    font-weight: 700;
+    font-weight: 600;
     margin: 1em 0 0.5em;
     color: hsl(234, 12%, 34%);
+    font-size: 1.3em;
 }
 
 .texto-conteudo {
